@@ -21,4 +21,4 @@ jobs:
 
       - name: Executar testes
         run: pytest -v
-        working-directory: ./ci-cd-teste  # Adicionando a linha para forçar o diretório correto
+        working-directory: /home/runner/work/ci-cd-teste/ci-cd-teste  # Corrigido o caminho para o diretório correto
